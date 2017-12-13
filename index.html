@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- CHANGE THIS TITLE TAG -->
+<title>BCD - Brest Cancer Detection</title>
+
+<!-- media-queries.js -->
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!-- html5.js -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<link href="font/stylesheet.css" rel="stylesheet" type="text/css" />	
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/media-queries.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+<meta name="viewport" content="width=device-width" />
+ 
+<link rel="shortcut icon" href="shotcut.png" type="image/x-icon">
+
+<link href='http://fonts.googleapis.com/css?family=Exo:400,800' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+body,td,th {
+	color: #000;
+}
+</style>
+</head>
+
+<body data-spy="scroll">
+
+<!-- TOP MENU NAVIGATION -->
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"><a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</a>
+		
+			<div class="nav-collapse collapse">
+				<ul id="nav-list" class="nav pull-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">Design Process</a></li>
+					<li><a href="#updates">Reports</a></li>
+					<li><a href="#screenshots">Screenshots</a></li>
+					<li><a href="#contact">Team</a></li>
+				</ul>
+		  </div>
+		
+	  </div>
+	</div>
+</div>
+
+
+<!-- MAIN CONTENT -->
+<div class="container content container-fluid" id="home">
+
+
+
+	<!-- HOME -->
+	<div class="row-fluid">
+  
+		<!-- PHONES IMAGE FOR DESKTOP MEDIA QUERY -->
+		<div class="span5 visible-desktop">
+			<img src="img/phones.png">
+		</div>
+	
+		<!-- APP DETAILS -->
+		<div class="span7">
+	
+			<!-- ICON -->
+			<div class="visible-desktop" id="icon">
+				<img src="img/app_icon.png" />
+			</div>
+			
+			<!-- APP NAME -->
+			<div id="app-name">
+				<h1 style="font-size:50px; color: black;">Brest Cancer Detection</h1>
+			</div>
+			
+			<!-- VERSION 
+			<div id="version">
+				<span class="version-top label label-inverse">Version 1.0</span>
+			</div>
+            -->
+			<!-- TAGLINE -->
+			<div id="tagline">
+				Early detection of breast cancer saves lives.
+			</div>
+		
+			<!-- PHONES IMAGE FOR TABLET MEDIA QUERY -->
+			<div class="hidden-desktop" id="phones">
+				<img src="img/phones.png">
+			</div>
+            
+			<!-- DESCRIPTION -->
+			<div id="description">
+				The purpose of our product is to make people <strong>aware</strong> of breast cancer and help them detect breast cancer 
+				during the early stage.  
+			</div>
+            
+			<!-- FEATURES -->
+			<ul id="features">
+				<li>Self-breast examination by learning through videos and pictures</li>
+				<li>Entering family cancer history</li>
+				<li>Learn about breast cancer through articles</li>
+				<li>Reading about cancer survivors or people diagnosed with breast cancer stories or testimonials</li>
+				<li>Consult experts for help for guidance to know what to do next</li>
+			</ul>
+		
+			<!-- DOWNLOAD & REQUIREMENT BOX -->
+			<div class="download-box">
+				<a href="#"><img src="img/available-on-the-app-store.png"></a>
+			</div>
+			<div class="download-box">
+				<a href="#"><img src="img/android_app_on_play_logo_large.png"></a>
+			</div>
+			<div class="download-box">
+				<strong>Requirements:</strong><br>
+				Compatible with iPhone and iPod touch. Requires iPhone iOS 8 or later. WiFi, Edge, or 3G network connection sometimes required.
+			</div>
+			<div class="download-box">
+				<strong>Requirements:</strong><br>
+				Requires Android 4.0 and higher. WiFi, Edge, or 3G network connection sometimes required.
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	
+	<!-- ABOUT & UPDATES -->
+	<div class="row-fluid" id="about">
+	
+		<div class="span6">
+			<h2 class="page-title" id="scroll_up">
+				Design Process
+				<a href="#home" class="arrow-top">
+				<img src="img/arrow-top.png">
+				</a>
+			</h2>
+			
+			<p>
+				After deciding this topic, we've conducted 5 interviews to find out the core problems 
+				on breast cancer in women aged between 20 to 50. The results told us that our interviewees 
+				had rare knowledge of breast cancer's symptoms, few of them knew how to prevent from the breast cancer, 
+				even the mammogram which is the most efficient way to detect the breast cancer, they just heard from it and 
+				had no idea on how often should have one. 
+			</p>
+			<p>
+				As our project is dedicated to breast cancer, we are considering the technology and the capability we can 
+				reach. We finally decided to focus our target users of women between the ages of 20 - 50 who are not suffering 
+				from this cancer. We then decided that our platform should be a mobile application because today cell phones are 
+				devices that everyone can have and use. 
+			</p> 
+			<p>	
+				Finally, we designed that our app should provides symptom information, videos and pictures
+				 teaching users how to do self-examination, and suggestion for user to schedule a mammogram. 
+				 To help the expert consultants know who they are helping, the app will also collect users’ 
+				 family cancer history onto a timeline and it will provide an option to help user contact nearby doctors. 
+				 The app asks the user to enter the symptoms and then the results will appear. It will also have 
+				 suggestions about the next steps that are needed to be sure that the user doesn’t have breast cancer.
+			</p> 
+			
+			
+		</div>
+	
+		<div class="span6 updates" id="updates">
+			<h2 class="page-title" id="scroll_up">
+				Reports
+				<a href="#home" class="arrow-top">
+				<img src="img/arrow-top.png">
+				</a>
+			</h2>
+			
+			<!-- UPDATES & RELEASE NOTES -->
+			
+			<h3 class="version">Final</h3>
+			
+			<ul>
+				<li>
+					<a href="https://marvelapp.com/3c2e3db">
+					Team Tango Hi-Fi Prototype by Marvelapp</a>
+				</li>
+				<li>
+					<a href="https://docs.google.com/a/umail.iu.edu/document/d/1EOGIiF2MyD1t6PLvwd3tzDsaqsBTq_IVUeXchU1Jm0w/edit?usp=sharing">
+					Final Report</a>
+				</li>
+			</ul>
+			<hr>
+			
+			<h3 class="version">3rd Week Report</h3>
+			<ul>
+				<li>
+					<a href="https://docs.google.com/a/umail.iu.edu/document/d/1IaUrCzQlea8YtLQoS5Ms-d4z6KUW0plduPy3pUIvdAw/edit?usp=sharing">
+					Sketching, Prototyping, & Walkthrough Report</a>
+				</li>
+			<hr>
+		
+			<h3 class="version">2nd Week Report</h3>
+			<ul>
+				<li>
+					<a href="https://docs.google.com/document/d/1kDUM3fcfc4NS7HnQiJ89J-fILhZ38MUWoVa44UPU4KI/edit?usp=sharing">
+					Explorative Design Report</a>
+				</li>
+				<li>
+					<a href="https://docs.google.com/document/d/1qhT7enIVsz521IcOtHX05l1Fa68g2d5mDkFDbE_Vavs/edit?usp=sharing">
+					Brain Storm - 50 ideas</a>
+				</li>
+			</ul>
+			<hr>
+
+			<h3 class="version">1st Week Report</h3>
+			<ul>
+				<li>
+					<a href="https://docs.google.com/document/d/1UVssh4g3sf-OFZIPGAzp83bysLEo7UE_GNpRv_Dxwtw/edit?usp=sharing">
+					Domain Space and Requirements Gathering Report</a>
+				</li>
+				<li>
+					<a href="https://docs.google.com/document/d/1TJL0IYRrV69YXbXPBwCHm1EgLq1JhNQxv6ydN9LTPY0/edit?usp=sharing">
+					Interview Questions</a>
+				</li>
+			</ul>
+		</div>
+	
+	</div>
+	
+	
+	
+	<!-- SCREENSHOTS -->
+	<div class="row-fluid" id="screenshots">
+		
+		<h2 class="page-title" id="scroll_up">
+				Screenshots
+				<a href="#home" class="arrow-top">
+				<img src="img/arrow-top.png">
+				</a>
+			</h2>
+		
+		<!-- SCREENSHOT IMAGES ROW 1-->
+		<ul class="thumbnails">
+			<li class="span3">
+				<a href="img/screenshot.png" rel="gallery" class="thumbnail">
+				<img src="img/screenshot.png" alt="">
+				</a>
+			</li>
+		
+			<li class="span3">
+				<a href="img/screenshot2.png" rel="gallery" class="thumbnail">
+				<img src="img/screenshot2.png" alt="">
+				</a>
+			</li>
+			
+			<li class="span3">
+				<a href="img/screenshot3.png" rel="gallery" class="thumbnail">
+				<img src="img/screenshot3.png" alt="">
+				</a>
+			</li>
+ 
+			<li class="span3">
+				<a href="img/screenshot4.png" rel="gallery" class="thumbnail">
+				<img src="img/screenshot4.png" alt="">
+				</a>
+			</li>
+		</ul>	
+		
+		<!-- SCREENSHOT IMAGES ROW 2-->		
+		<ul class="thumbnails">
+			<li class="span3">
+				<a href="img/screenshot5.png" rel="gallery" class="thumbnail">
+				<img src="img/screenshot5.png" alt="">
+				</a>
+			</li>
+			
+			<li class="span3">
+				<a href="img/screenshot6.png" rel="gallery" class="thumbnail">
+				<img src="img/screenshot6.png" alt="">
+				</a>
+			</li>
+			
+			<li class="span3">
+				<a href="img/screenshot7.png" rel="gallery" class="thumbnail">
+				<img src="img/screenshot7.png" alt="">
+				</a>
+			</li>
+			
+			<li class="span3">
+				<a href="img/screenshot8.png" rel="gallery" class="thumbnail">
+				<img src="img/screenshot8.png" alt="">
+				</a>
+			</li>
+		</ul>
+	</div>
+	
+	
+	
+	<!-- CONTACT -->
+	<div class="row-fluid" id="contact">
+	
+		<h2 class="page-title" id="scroll_up">
+				Team
+				<a href="#home" class="arrow-top">
+				<img src="img/arrow-top.png">
+				</a>
+			</h2>
+		
+		<!-- CONTACT INFO -->
+		<div class="span4" id="contact-info">
+			<h3>About Us</h3>
+			<p>
+					<strong>Team Tango: </strong> 
+					
+					Taylor Hincks,
+					Madhura Mhatre,
+					Ke Zhuang,
+					Shuxian Wu
+					
+			</p>
+			<p>Please feel free to tell us where we can do better!<p>
+			<p><a href="mailto:wushux@iu.edu">wushux@iu.edu</a></p>
+		</div>
+		
+		<!-- CONTACT FORM -->
+		<div class="span7" id="contact-form">
+			<form class="form-horizontal">
+				<fieldset>
+					<div class="control-group">
+						<label class="control-label" for="name">Name</label>
+						<div class="controls">
+							<input class="input-xlarge" type="text" id="name" placeholder="John Doe">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="email">Email</label>
+						<div class="controls">
+							<input class="input-xlarge" type="text" id="email" placeholder="john@gmail.com">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="subject">Subject</label>
+						<div class="controls">
+							<input class="input-xlarge" type="text" id="subject" placeholder="General Inquiry">
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="message">Message</label>
+						<div class="controls">
+							<textarea class="input-xlarge" rows="3" id="message" placeholder="Your message..."></textarea>
+						</div>
+					</div>
+					<div class="form-actions">
+						<button type="submit" class="btn btn-primary">SEND</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		
+	</div>
+	
+</div>
+
+
+<!-- FOOTER -->
+<div class="footer container container-fluid">
+
+	<!-- COPYRIGHT - EDIT HOWEVER YOU WANT! -->
+	<div id="copyright">
+		Copyright &copy; 2017 Team Tango, IUPUI.<br>
+		Licensed under <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Built on <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>.
+	</div>
+	
+	<!-- CREDIT - PLEASE LEAVE THIS LINK! -->
+	<div id="credits">
+		<a href="http://www.trippoinc.com/flexapp">Theme</a> by <a href="http://www.trippoinc.com">Trippo</a>.
+	</div>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-collapse.js"></script>
+<script src="js/bootstrap-scrollspy.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="js/init.js"></script>
+
+</body>
+</html>
